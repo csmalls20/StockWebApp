@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Running the app locally
+Please make sure you have node, yarn and python already installed in your machine.
+Run the following commands from your VS Code Terminal
+
+    python -m venv venv
+
+    .\venv\Scripts\activate
+
+    pip install -r .\requirements.txt
+
+    yarn 
+
+## Start the frontend server
+    yarn start 
+## Open a new terminal to run the backend server
+
+    python manage.py migrate/ python manage.py makemigrations
+
+    python manage.py runserver
+
+### To see the sqllite database
+    python manage.py createsuperuser
+
+Go to this link: 
+
+http://127.0.0.1:8000/admin/login/?next=/admin/
+
