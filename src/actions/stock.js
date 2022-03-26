@@ -11,7 +11,7 @@ export const get_stock_price = (symbol) => async dispatch => {
     const config = {
         headers: {
             'Content-Type': 'application/json',
-            'x-api-key': 'kcKvQfHo5oaXwGoXW7Fpv6dXlIKyHEx5HlPgafMj'
+            'x-api-key': 'LsprnNVi5G7KA8siNAbkr63lB1ysS46X6HgkUzw6'
         }
     };
 
@@ -46,11 +46,10 @@ export const add_stock_price = (author, company, money_to_invest, stock_price, p
                 'Authorization': `Auth ${localStorage.getItem('access')}`
             }
         };
-
         const body = JSON.stringify({ author, company, money_to_invest, stock_price, profit_or_loss });
 
         try {
-            const res = await axios.post('http://localhost:8000/stock/', body, config);
+            const res = await axios.post(`${process.env.REACT_APP_API_URL}/stock/`, body, config);
             console.log(res.data);
             console.log(res.status);
 
@@ -59,6 +58,7 @@ export const add_stock_price = (author, company, money_to_invest, stock_price, p
                     type: ADD_STOCK_SUCCESS,
                     payload: res.data
                 });
+
             } else {
                 dispatch({
                     type: ADD_STOCK_FAIL

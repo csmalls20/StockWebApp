@@ -2,7 +2,7 @@ import './App.css';
 
 import { Provider } from "react-redux";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import store from './store';
 import Layout from './hoc/Layout';
 import Home from './containers/Home';
