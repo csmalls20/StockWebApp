@@ -6,11 +6,11 @@ const StockTable = ({ stocks }) => {
             <thead>
                 <tr>
                     <th>Id</th>
-                    <th>Symbol</th>
-                    <th>Shares</th>
-                    <th>Bought/share</th>
+                    <th>Stock Symbol</th>
+                    <th>Number of Shares</th>
+                    <th>Bought Price/share</th>
                     <th>Current Price/share</th>
-                    <th>Amount</th>
+                    <th>Amount Invested</th>
                     <th>Profit/Loss</th>
                 </tr>
             </thead>
