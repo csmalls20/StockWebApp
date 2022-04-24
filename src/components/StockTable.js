@@ -1,6 +1,8 @@
 import { Table } from "react-bootstrap"
 
 const StockTable = ({ stocks }) => {
+    let profitOrLoss = 0;
+    let currentPortfolioValue = 0;
     return (
         <Table bordered>
             <thead>
@@ -16,6 +18,8 @@ const StockTable = ({ stocks }) => {
             </thead>
             <tbody>
                 {stocks && stocks.map((el, index) => {
+                    profitOrLoss += (el.currPPS - el.broughtPPS);
+                    currentPortfolioValue += (el.currPPS * el.shares);
                     return (
                         <tr key={index}>
                             <td>{el.id}</td>
@@ -30,6 +34,13 @@ const StockTable = ({ stocks }) => {
                         </tr>
                     )
                 })}
+                
+                        <tr>
+                            <td colSpan={5} style={{textAlign: "right"}}>Total</td>
+                            <td>{currentPortfolioValue.toFixed(2)}</td>
+                            <td>{profitOrLoss.toFixed(2)}</td>
+                        </tr>
+                
             </tbody>
         </Table>
     )
