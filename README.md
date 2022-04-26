@@ -1,7 +1,8 @@
 <h1 align="center">Stock Web Application</h1> 
 
 ## Table of Contents 
-* [Introduction] (#introduction) 
+- [Introduction] (#introduction) 
+- [Features] (#features)
 
 ## Introduction
 
