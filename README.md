@@ -10,8 +10,11 @@ With this stock portfolio simulation, users can dd however much money they would
 **The application can be ran on any browser.**
 
 ## Features
-* View stocks
+* Login/logout functionality
+* Register functionality
+* Histogram display of stocks
 * Add money to stocks 
+* Sell stocks
 
 # Getting Started with Create React App
 
@@ -95,6 +98,18 @@ Run the following commands from your VS Code Terminal
     pip install -r .\requirements.txt
 
     yarn 
+
+## Running the app locally (Mac)
+Please make sure you have node, yarn and python already installed in your machine.
+Run the following commands from your VS Code Terminal
+
+    python -m venv venv
+    
+    source venv/bin/activate
+    
+    pip install -r requirements.txt
+    
+    yarn
 
 ## Start the frontend server
     yarn start 
