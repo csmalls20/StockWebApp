@@ -1,4 +1,4 @@
-# Project Description
+<h1 align="center"> Stock Web Application</h1> 
 
 
 # Getting Started with Create React App
