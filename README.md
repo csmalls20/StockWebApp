@@ -9,7 +9,7 @@ With this stock portfolio simulation, users can dd however much money they would
 
 **The application can be ran on any browser.**
 
-## Features 
+## Features
 * View stocks
 * Add money to stocks 
 
