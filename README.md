@@ -7,7 +7,7 @@
 ## Introduction
 With this stock portfolio simulation, users can dd however much money they would like to the stock of their choice. Thus, displaying the changes of the stock due to the addition of an individual's money in real time. Each stock that is affected by the user's actions will be added to their portfolio; allowing for future use and examination.   
 
-The application can be ran on any browser.
+**The application can be ran on any browser.**
 
 ## Features 
 
