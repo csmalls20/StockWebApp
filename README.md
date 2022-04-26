@@ -1,4 +1,6 @@
-<h1 align="center"> Stock Web Application</h1> 
+<h1 align="center">Stock Web Application</h1> 
+
+# Table of Contents 
 
 
 # Getting Started with Create React App
