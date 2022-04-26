@@ -3,10 +3,10 @@
 ## Table of Contents 
 * [Introduction] (#introduction) 
 
-# Introduction
+## Introduction
 
 
-# Features 
+## Features 
 
 
 # Getting Started with Create React App
