@@ -99,7 +99,7 @@ Run the following commands from your VS Code Terminal
 
     yarn 
 
-### Running the app locally (Mac)
+### Running the app locally (Mac OS)
 Please make sure you have node, yarn and python already installed in your machine.
 Run the following commands from your VS Code Terminal
 
