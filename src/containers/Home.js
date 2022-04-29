@@ -163,7 +163,7 @@ const Home = ({
                     name="description"
                     content="Home of servey app"
                 />
-                <title>StockWebApp | Home</title>
+                <title>Stock Web App | Home</title>
             </Helmet>
             <div className='container mt-5 p-2'>
                 <h1>Welcome</h1>
