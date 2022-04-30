@@ -191,7 +191,7 @@ const Home = ({
                             ) : (
                                 <>
                                     <VictoryChart
-                                        domainPadding={10}
+                                        domainPadding={15}
                                         theme={VictoryTheme.material}>
                                         <VictoryBar
                                             style={{ data: { fill: "#c43a31" } }}
