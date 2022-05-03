@@ -109,6 +109,8 @@ Run the following commands from your VS Code Terminal
     
     pip install -r requirements.txt
     
+    sudo npm install --global yarn
+    
     yarn
 
 ## Start the frontend server
