@@ -10,8 +10,8 @@ const StockTable = ({ stocks }) => {
                     <th>Id</th>
                     <th>Stock Symbol</th>
                     <th>Number of Shares</th>
-                    <th>Bought Price/share</th>
-                    <th>Current Price/share</th>
+                    <th>Bought Price/Share</th>
+                    <th>Current Price/Share</th>
                     <th>Amount Invested</th>
                     <th>Profit/Loss</th>
                 </tr>
@@ -36,7 +36,7 @@ const StockTable = ({ stocks }) => {
                 })}
                 
                         <tr>
-                            <td colSpan={5} style={{textAlign: "right"}}>Total</td>
+                            <td colSpan={5} style={{textAlign: "right", fontWeight: "bold"}}>Total</td>
                             <td>{currentPortfolioValue.toFixed(2)}</td>
                             <td>{profitOrLoss.toFixed(2)}</td>
                         </tr>
