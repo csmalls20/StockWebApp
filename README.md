@@ -87,7 +87,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Running the app locally
+### Running the app locally in windows
 Please make sure you have node, yarn and python already installed in your machine.
 Run the following commands from your VS Code Terminal
 
@@ -96,8 +96,6 @@ Run the following commands from your VS Code Terminal
     .\venv\Scripts\activate
 
     pip install -r .\requirements.txt
-
-    yarn 
 
 ### Running the app locally (Mac OS)
 Please make sure you have node, yarn and python already installed in your machine.
@@ -110,8 +108,6 @@ Run the following commands from your VS Code Terminal
     pip install -r requirements.txt
     
     sudo npm install --global yarn
-    
-    yarn
 
 ## Start the frontend server
     yarn start 
