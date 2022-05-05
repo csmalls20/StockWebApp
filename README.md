@@ -1,3 +1,21 @@
+<h1 align="center">Stock Web Application</h1> 
+
+## Table of Contents 
+- [Introduction](#introduction) 
+- [Features](#features)
+
+## Introduction
+With this stock portfolio simulation, users can dd however much money they would like to the stock of their choice. Thus, displaying the changes of the stock due to the addition of an individual's money in real time. Each stock that is affected by the user's actions will be added to their portfolio; allowing them to see how the stock they invested in is currently doing.   
+
+**The application can be ran on any browser.**
+
+## Features
+* Login/logout functionality
+* Register functionality
+* Histogram display of stocks
+* Add money to stocks 
+* Sell stocks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -80,6 +98,20 @@ Run the following commands from your VS Code Terminal
     pip install -r .\requirements.txt
 
     yarn 
+
+### Running the app locally (Mac OS)
+Please make sure you have node, yarn and python already installed in your machine.
+Run the following commands from your VS Code Terminal
+
+    python -m venv venv
+    
+    source venv/bin/activate
+    
+    pip install -r requirements.txt
+    
+    sudo npm install --global yarn
+    
+    yarn
 
 ## Start the frontend server
     yarn start 
