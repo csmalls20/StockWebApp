@@ -1,11 +1,17 @@
 <h1 align="center">Stock Web Application</h1> 
 
+<h3 align="center">Christopher Smalls (cas35@hood.edu)</h3>
+<h3 align="center">Sorupa Wagle (sw11@hood.edu)</h3>
+<h3 align="center">Tobi Aroloye (oa5@hood.edu)</h3>
+<br>
+<h4 align="center">Github Link: https://github.com/sorupa/StockWebApp</h4>
+
 ## Table of Contents 
 - [Introduction](#introduction) 
 - [Features](#features)
 
 ## Introduction
-With this stock portfolio simulation, users can dd however much money they would like to the stock of their choice. Thus, displaying the changes of the stock due to the addition of an individual's money in real time. Each stock that is affected by the user's actions will be added to their portfolio; allowing them to see how the stock they invested in is currently doing.   
+With this stock portfolio simulation, users can add however much money they would like to the stock of their choice. Thus, displaying the changes of the stock due to the addition of an individual's money in real time. Each stock that is affected by the user's actions will be added to their portfolio; allowing them to see how the stock they invested in is currently doing.   
 
 **The application can be ran on any browser.**
 
