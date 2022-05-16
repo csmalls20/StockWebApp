@@ -9,7 +9,8 @@
 ## Table of Contents 
 - [Introduction](#introduction) 
 - [Features](#features)
-- [Directory Structure](#directory)
+- [Directory Structure](#directorystructure)
+- [Tech Stack](#techstack)
 
 ## Introduction
 With this stock portfolio simulation, users can add however much money they would like to the stock of their choice. Thus, displaying the changes of the stock due to the addition of an individual's money in real time. Each stock that is affected by the user's actions will be added to their portfolio; allowing them to see how the stock they invested in is currently doing.   
@@ -19,13 +20,20 @@ With this stock portfolio simulation, users can add however much money they woul
 ## Features
 * Login/logout functionality
 * Register functionality
-* Histogram display of stocks
+* Get current value of stock
 * Add money to stocks 
-* Sell stocks
+* Display of loss/profit of stocks
 
 ## Directory Structure
-* src = Source Code
+* accounts = Account info of user
+* backend = Backend configuration of program through django
+* media/profilepic = Avatar profile of user
+* public = Transition of website to be created through React 
+* src = Source code
+* stockapp = 
 
+## Tech Stack
+* 
 
 # Getting Started with Create React App
 
