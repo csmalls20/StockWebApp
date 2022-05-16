@@ -37,6 +37,7 @@ With this stock portfolio simulation, users can add however much money they woul
 * JavaScript
 * Django
 * SQLite
+* HTML
 * Virtual Studio Code
 
 # Getting Started with Create React App
