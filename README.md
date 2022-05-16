@@ -24,7 +24,7 @@ With this stock portfolio simulation, users can add however much money they woul
 * Sell stocks
 
 ## Directory Structure
-*
+* src = Source Code
 
 
 # Getting Started with Create React App
