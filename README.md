@@ -30,10 +30,14 @@ With this stock portfolio simulation, users can add however much money they woul
 * media/profilepic = Avatar profile of user
 * public = Transition of website to be created through React 
 * src = Source code
-* stockapp = 
+* stockapp = Used for django configuration
 
 ## Tech Stack
-* 
+* Python
+* JavaScript
+* Django
+* SQLite
+* Virtual Studio Code
 
 # Getting Started with Create React App
 
